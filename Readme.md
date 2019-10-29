@@ -6,5 +6,5 @@ The **transect** folder includes data from the european transect experiment, wit
 
 The **reciprocal_exp** folder includes data from the reciprocal transplantation experiment, with samples from Sweden and Italy with swapped soils, plants and genotypes.
 
-For further informations on the experimental design, please check our publication. 
+For further information on the experimental design, please check our publication. 
 
