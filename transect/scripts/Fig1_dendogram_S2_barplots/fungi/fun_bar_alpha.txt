@@ -1,0 +1,156 @@
+DATASET_SIMPLEBAR
+#In simple bar charts, each ID is associated to a single numeric value which is displayed as a bar outside the tree.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,label 1
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+#dataset scale: you can simply set the values where the scale will be drawn
+DATASET_SCALE,100,200,400,600
+#or you can specify value, label and color for each scale line (dash separated, format: VALUE-LABEL-COLOR) 
+#DATASET_SCALE,2000-2k line-#0000ff,10000-line at 10k-#ff0000,20000
+
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 6:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+
+#maximum width
+WIDTH,100
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#bar height factor; Default bar height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#Display individual values above the bars
+#SHOW_VALUE,1
+
+#Bars are aligned to the node lines by default. Using BAR_SHIFT, you can move them all up/down by a fixed amount
+#BAR_SHIFT,0
+
+#BAR_ZERO specifies which dataset value will be used as a starting point for drawing the bars. Dataset values smaller than BAR_ZERO will be displayed to the left (possibly overlapping the tree, unless MARGIN is increased)
+#BAR_ZERO,0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the bars
+#BORDER_WIDTH,0
+
+#border color; used when BORDER_WIDTH is above 0
+#BORDER_COLOR,#0000ff
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#ID1,value1
+#ID2,value2
+#9606,10000
+#LEAF1|LEAF2,11000
+
+ItaRP,57.75
+ItaRS,198
+ItaRoot,70
+ItaSoil,208.75
+PulhRP,111.714285714286
+PulhRS,237
+PulhRoot,55.5
+PulhSoil,237.875
+SDRP,117.333333333333
+SDRS,202.375
+SDRoot,66.875
+SDSoil,158.375
+geyenRP,157
+geyenRS,193.5
+geyenSoil,207
+hamRP,161
+hamRS,204.5
+hamRoot,166
+hamSoil,121.375
+pulhRP,118.25
+pulhRS,189.125
+pulhRoot,28
+pulhSoil,143.125
+spa1RP,119.2
+spa1RS,193.6875
+spa1Root,73.9230769230769
+spa1Soil,150.266666666667
+spa2RP,96.4285714285714
+spa2RS,208.125
+spa2Root,163
+spa2Soil,217.1875
+spa3RP,72.2222222222222
+spa3RS,218.266666666667
+spa3Root,51.625
+spa3Soil,178.6
+swe1RP,120
+swe1RS,205.071428571429
+swe1Root,76
+swe1Soil,172.6
+swe2RP,150.6
+swe2RS,195.6
+swe2Root,121
+swe2Soil,185.833333333333
+swe3RP,132.1
+swe3RS,166.142857142857
+swe3Root,97.6923076923077
+swe3Soil,172.533333333333
+swe4RP,139.571428571429
+swe4RS,164.6
+swe4Root,132.928571428571
+swe4Soil,168.666666666667
+tou1RP,137.923076923077
+tou1RS,185.1875
+tou1Root,143.818181818182
+tou1Soil,184.1875
+tou2RP,159.6
+tou2RS,183.416666666667
+tou2Root,191.833333333333
+tou2Soil,199.5
+tub2RP,63.7
+tub2RS,208.5
+tub2Root,103.384615384615
+tub2Soil,257.75
+tub3RP,132
+tub3RS,225.8125
+tub3Root,86.4285714285714
+tub3Soil,235.0625
+tub4RP,132.444444444444
+tub4RS,205.866666666667
+tub4Root,67
+tub4Soil,184.0625

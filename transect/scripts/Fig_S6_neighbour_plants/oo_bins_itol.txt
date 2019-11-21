@@ -1,0 +1,133 @@
+DATASET_EXTERNALSHAPE
+#Nodes have multiple values associated with them. Values will be displayed as geometric shapes of different sizes in columns outside the tree.
+#Highest value in the dataset will have the largest size, and all others will be scaled down proportionally.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,example shapes dataset
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#define colors for each individual field column (use hexadecimal, RGB or RGBA notation; if using RGB/RGBA, COMMA cannot be used as SEPARATOR)
+FIELD_COLORS,#FF0000,#FF7600,#FFEB00,#9DFF00,#27FF00,#00FF4E
+
+#field labels
+FIELD_LABELS,OTU_984,OTU_1217,OTU_1795,OTU_337,OTU_1,OTU_8
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 6:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_SHAPES,1,2
+#LEGEND_COLORS,#ff0000,#00ff00
+#LEGEND_LABELS,value1,value2
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#shape height factor; Default shape height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#vertical and horizontal grids can be displayed connecting the shapes
+#HORIZONTAL_GRID,1
+#VERTICAL_GRID,1
+
+#horizontal spacing between shape columns
+#SHAPE_SPACING,10
+
+#Shape types:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#SHAPE_TYPE,2
+
+#if set to 0, only outlines will be shown
+#COLOR_FILL,1
+
+#if set to 1, actual numeric value will be show in the center of each shape
+#SHOW_VALUES,1
+
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+
+Arabidopsis,2,2,4,2,10,4
+SP3_Poa41,1.5,1.5,1.5,0,0,10
+SP3_Trifolium39,0,0,0,0,0,1.5
+SP3_Agrostis40,0,0,0,0,2,1.5
+GE5_Leymus27,0,0,0,0,0,0
+GE5_Poa25,0,0,0,0,0,0
+GE5_Poa26,0,0,0,0,0,0
+FR3_Festuca10,0,0,0,0,0,2
+GE1_Holcus14,2,4,6,2,10,0
+FR3_Festuca9,0,0,0,0,6,4
+GE1_Holcus13,2,4,6,2,10,2
+GE1_Holcus12,2,2,6,2,10,1.5
+FR3_Festuca11,0,0,0,0,2,0
+GE4_Festuca23,2,2,4,1.5,10,2
+GE3_Bromus18,2,2,6,2,10,2
+GE3_Bromus20,2,2,6,2,10,2
+GE3_Bromus19,2,2,6,1.5,10,2
+GE4_Poa22,2,2,4,2,10,2
+SP1_Avena32,2,2,2,1.5,8,2
+GE2_Poa17,2,4,2,2,10,2
+GE2_Poa16,2,2,4,2,10,2
+SP1_Dactylis33,2,2,2,1.5,10,2
+FR1_Arabidopsis1,2,2,6,2,10,2
+SP2_Bromus37,2,2,6,2,10,2
+FR1_Poa2,2,2,6,2,10,2
+SP2_Bromus36,2,2,4,1.5,10,2
+SP2_Bromus35,2,2,6,1.5,10,2
+FR1_Poa3,2,2,6,2,10,2
+FR2_Poa7,2,1.5,2,2,10,2
+GE6_Poa31,2,1.5,2,2,10,2
+GE6_Poa29,2,1.5,2,2,10,2
+FR2_Poa6,2,1.5,2,2,10,2
+GE6_Poa30,2,1.5,2,2,10,2
+FR2_Bromus5,2,1.5,2,2,10,2
+SW2_Agrostis47,2,2,6,2,10,2
+SW2_Agrostis46,2,2,4,1.5,10,2
+SW1_Festuca43,2,2,4,2,10,2
+SW1_Festuca44,2,2,6,1.5,10,2
+SW2_Agrostis48,2,2,6,2,10,2
+SW3_Silene51,2,1.5,4,2,10,2
+SW4_Festuca54,2,1.5,4,2,10,2
+SW4_Festuca53,2,1.5,2,2,10,2
+SW3_Silene50,2,1.5,2,2,10,2
+SW2_Agrostis49,1.5,0,1.5,0,6,0
+SP3_Festuca42,0,0,0,0,6,6
+FR1_Festuca4,0,0,4,0,10,0
+SW3_Festuca52,0,0,0,0,10,0
+GE1_Festuca15,0,1.5,0,0,10,1.5
+GE5_Poa28,1.5,0,1.5,0,10,0
+SP2_Bromus38,0,0,0,0,8,0
