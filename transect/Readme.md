@@ -25,7 +25,7 @@ ALL sample names are build in the same way, e.g. spa3.RP.4S.V5.Y1
 2. compartment, here **RP** eq Rhizoplane, RS eq Rhizosphere, Soil & Root. 
 3. sample type, here Single (**S**). Could also be pooled (P) or neighbouring plant (N)
 4. primer, **V5** (bacteria), ITS1 (fungal) ITS1o oomycetal
-5. Sampleing year. **Y1** = 2015, Y2 = 2016, Y3 = 2017 
+5. Sampling year. **Y1** = 2015, Y2 = 2016, Y3 = 2017 
 
 
 
