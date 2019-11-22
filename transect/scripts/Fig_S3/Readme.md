@@ -4,9 +4,7 @@ This folder includes data and scripts used for Figure S3.
 
 **Fig_S3_shared_otu.r**  This R script will produce the panels you can see in Figure S3 b/c, depending on the input file. Use the ***_high_abun.txt as input for panel b and ***_low_abun.txt for panel c.
 
-The respective files are tables showing the number of shared OTUs (either only high abundant ones or only low abundant ones) between all samples (count and percentage).
-
-
+The respective files are tables showing the number of shared OTUs (either only high abundant ones or only low abundant ones) between all samples (count and percentage). Note, some files are compressed due to their size.
 
 
 
