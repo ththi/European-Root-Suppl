@@ -1,6 +1,6 @@
 # European-Root-Suppl
 
-This repository includes raw data and scripts used for the manuscript **"Root microbiota assembly and adaptive differentiation among European Arabidopsis populations"**  Nature Ecology and Evolution, 2019.
+This repository includes raw data and scripts used for the manuscript **"Root microbiota assembly and adaptive differentiation among European Arabidopsis populations"**  Nature Ecology and Evolution, 2020.
 
 The **transect** folder includes data from the european transect experiment, with microbiome samples from 17 european Arabidopsis populations.
 
